@@ -1,0 +1,19 @@
+{
+  "id": "bmad-method",
+  "version": "1.0.0",
+  "name": "BMAD METHOD",
+  "description": "Installs BMAD METHOD globally",
+  "documentationURL": "https://github.com/bmad-code-org/BMAD-METHOD",
+  "options": {
+    "installNode": {
+      "type": "boolean",
+      "default": true,
+      "description": "Install Node.js v20 if not present"
+    },
+    "version": {
+      "type": "string",
+      "default": "latest",
+      "description": "BMAD METHOD version to install"
+    }
+  }
+}
